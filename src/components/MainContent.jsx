@@ -4,7 +4,7 @@ import HelpArea from './HelpArea';
 
 function MainContent() {
   const [helpVisible, setHelpVisible] = useState(false);
-
+// My Tests
   function toggleHelp() {
     setHelpVisible((isVisible) => !isVisible);
   }
